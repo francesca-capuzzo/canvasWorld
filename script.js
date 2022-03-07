@@ -91,14 +91,13 @@ setInterval(() => {
     }
 }, 20);
 
+//devo lavorare sulla distanza dai due centri e la delta (distanza) di collisione con i diversi segni 
 
 function checkCollision(player, wall) {
 
     let collidingX = player.x < (wall.x + wall.w) && (player.x + player.w) > wall.x;
     let collidingY = player.y < (wall.y + wall.h) && (player.y + player.h) > wall.y;
-    if (collidingX && collidingY) {
-        
-       }
+    
     
 }
 
